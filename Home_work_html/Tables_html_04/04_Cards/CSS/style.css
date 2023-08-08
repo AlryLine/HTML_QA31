@@ -1,0 +1,116 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Home_work_html/Tables_html_04/04_Cards/Img/76b58d2c0edfadc2d4f569a973db25ad.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+.cards {
+    margin: 10% 10%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px 5px  rgba(0, 0, 0, 0.5);
+    width: 27%;
+    height: 370px;
+    margin: 2% 2%;
+    border: 1px solid black;
+    border-radius: 3%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover {
+    width: 29%;
+    height: 430px;
+    margin: 0% 2%;
+}
+.card-title, .card-content {
+    margin: 3%;
+}
+
+.card-title {
+    margin: 5%;
+    font-weight: 900;
+}
+
+.card-price {
+    font-size: xxx-large;
+    font-weight: 900;
+}
+
+.card-line {
+    width: 100%;
+    height: 5px;
+}
+
+.btn_blue {
+    margin: 10%;
+    padding: 5% 15%;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgb(75, 105, 214);
+}
+
+.blue {
+    background-color: rgb(75, 105, 214);
+}
+
+.red {
+    background-color: rgb(189, 53, 53);
+}
+
+.btn_red {
+    margin: 10%;
+    padding: 5% 15%;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgb(189, 53, 53);
+}
+
+.green {
+    background-color: rgb(53, 180, 42);
+}
+
+.btn_green {
+    margin: 10%;
+    padding: 5% 15%;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgb(53, 180, 42);
+}
+
+.orange {
+    background-color: rgb(194, 146, 43);
+}
+
+.btn_orange {
+    margin: 10%;
+    padding: 5% 15%;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgb(194, 146, 43);
+}
+
+.per {
+    color: rgb(160, 157, 157);
+    padding-bottom: 10%;
+}
+
+p {
+    margin: 4% 0%;
+}
