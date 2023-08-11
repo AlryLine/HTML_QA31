@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: auto;
     box-sizing: border-box;
@@ -76,12 +78,14 @@ h2 {
     padding-top: 2%;
     padding-bottom: 2%;
     margin: -10% 5% 10% -45%;
-    font-size: medium;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card_l {
     color: black;
     font-size: large;
+    font-family: 'Roboto';
     display: flex;
     justify-content: flex-start;
     margin: 0% 12% 5% -30%;
@@ -97,7 +101,7 @@ h2 {
 }
 
 .card_i::placeholder {
-    color: black;
+    color: rgb(114, 114, 114);
 }
 
 .name_l {
@@ -106,6 +110,7 @@ h2 {
     margin: 0% 10% 5% -30%;
     color: black;
     font-size: large;
+    font-family: 'Roboto';
 }
 
 .name_i {
@@ -118,12 +123,13 @@ h2 {
 }
 
 .name_i::placeholder {
-    color: black;
+    color: rgb(114, 114, 114);
 }
 
 .date_l, .cvv_l {
     color: black;
     font-size: large;
+    font-family: 'Roboto';
     display: inline;
     margin: 0% 75% 5% -30%;
     width: 25%;
@@ -136,7 +142,7 @@ h2 {
 }
 
 .mm_i::placeholder, .yy_i::placeholder, .cvv_i::placeholder {
-    color: black;
+    color: rgb(114, 114, 114);
 }
 
 .mm_i, .yy_i {
@@ -145,7 +151,7 @@ h2 {
 }
 
 .cvv_l {
-    margin-left: -35%;
+    margin-left: -36%;
 }
 
 .cvv_i {
@@ -157,6 +163,7 @@ h2 {
 .btn_l {
     color: black;
     font-size: larger;
+    font-family: 'Roboto';
     width: 30%;
     margin: 1% 1%;
     padding: 0.5%;
@@ -168,6 +175,7 @@ h2 {
     padding: 0.5%;
     border: 1px solid black;
     font-weight: 700;
+    font-family: 'Roboto';
 }
 
 @media (max-width: 979px) {
