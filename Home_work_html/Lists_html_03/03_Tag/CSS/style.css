@@ -5,7 +5,7 @@ body {
     background-image: url(/Home_work_html/Lists_html_03/03_Tag/Img/1615816388_56-p-fon-khaitek-70.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    height: 130vh;
 }
 
 * {
@@ -17,12 +17,11 @@ body {
 
 .block {
     width: 80%;
-    height: 80%;
-    margin: 4% 10%;
+    height: 70%;
+    margin: 2% 10%;
     padding: 2% 0% 5% 2%;
     background-color: rgb(248, 237, 226, 0.7);
     box-shadow: 0px 20px 20px 5px rgba(0, 0, 0, 0.8);
-    position: fixed;
 }
 
 h1 {
